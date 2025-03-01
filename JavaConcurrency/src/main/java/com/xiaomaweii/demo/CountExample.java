@@ -1,4 +1,4 @@
-package com.mmall.demo;
+package com.xiaomaweii.demo;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -28,7 +28,7 @@ public class CountExample {
      *
      * @param args
      */
-    public  static void main(String[] args) {
+    public  static void main1(String[] args) {
         // 线程池
         ExecutorService exec = Executors.newCachedThreadPool();
         // 信号量

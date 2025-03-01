@@ -1,4 +1,4 @@
-package com.mmall.demo;
+package com.xiaomaweii.demo;
 
 import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
@@ -21,7 +21,7 @@ public class MapExample {
     private static int threadNum = 1;
     private static int clientNum = 5000;
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         ExecutorService exec = Executors.newCachedThreadPool();
         final Semaphore semaphore = new Semaphore(threadNum);
         for (int index = 0; index < clientNum; index++) {
